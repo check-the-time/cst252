@@ -10,7 +10,7 @@ h1, h2, h3 {
     border: "solid"
 }
 h1.solid {
-  border-style: solid;
+  border-style: "solid";
 }
 p {
     text-decoration: none;

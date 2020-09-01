@@ -7,8 +7,11 @@ body {
 
 h1, h2, h3 {
     font-family: "Courier New", monospace;
+    border: "solid"
 }
-
+h1.solid {
+  border-style: solid;
+}
 p {
     text-decoration: none;
     color: maroon;

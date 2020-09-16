@@ -1,8 +1,8 @@
 /*
-  //* Author: Sebastian Tamiano
+  * Author: Sebastian Tamiano
   * Partner: Marta Gubanova
   * Created: 15 September 2020
-  */
+*/
   // Define variables
   var make = "Toyota";
   var model = "AE86";

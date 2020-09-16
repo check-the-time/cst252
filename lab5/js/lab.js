@@ -3,14 +3,14 @@
   * Partner: Marta Gubanova
   * Created: 15 September 2020
 */
-  // Define variables
+// Define variables
   var make = "Toyota";
   var model = "AE86";
   var color = "White";
   var year = 1983;
   var currentYear = 2020;
 
-  // Calculate age
+// Calculate age
 age = currentYear - year;
 
 // Output

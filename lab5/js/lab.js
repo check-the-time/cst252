@@ -1,14 +1,14 @@
-//*
-  * Author: Sebastian Tamiano
+/*
+  //* Author: Sebastian Tamiano
   * Partner: Marta Gubanova
   * Created: 15 September 2020
-  /*
+  */
   // Define variables
-  var make = "Toyota"
-  var model = "AE86"
-  var color = "White"
-  var year = 1983
-  var currentYear = 2020
+  var make = "Toyota";
+  var model = "AE86";
+  var color = "White";
+  var year = 1983;
+  var currentYear = 2020;
 
   // Calculate age
 age = currentYear - year;

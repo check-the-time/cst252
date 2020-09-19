@@ -13,7 +13,7 @@ myMainRide = {
     color : "White",
     year : 1986,
     age : function () {
-        return 2020 - age;
+        return 2020 - "age";
     }
 }
 

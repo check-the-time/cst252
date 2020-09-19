@@ -5,9 +5,9 @@
  */
 
 // define variables
-myTransport = ["car", "bike", "bus", "walk"];
+var myTransport = ["car", "bike", "bus", "walk"];
 
-myMainRide = {
+var myMainRide = {
     make: "Toyota",
     model : "AE86",
     color : "White",

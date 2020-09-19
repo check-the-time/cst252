@@ -5,16 +5,17 @@
  */
 
 // define variables
-var myTransport = ["car", "bike", "bus", "walk"];
+var myTransport = ["car", "bike", "bus", "walking"];
 
 var myMainRide = {
     make: "Toyota",
     model : "AE86",
     color : "White",
     year : 1986,
-    age : function ("year", 2020) {
+    age : function (2020, "year") {
         return 2020 - "age";
     }
+    return : "age"
 }
 
 // output

@@ -12,10 +12,7 @@ var myMainRide = {
     model : "AE86",
     color : "White",
     year : 1986,
-    age : function (2020, "year") {
-        return 2020 - "age";
-    }
-    return : "age"
+    age : console.log(2020 - year)
 }
 
 // output

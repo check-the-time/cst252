@@ -12,10 +12,7 @@ var myMainRide = {
     color : "White",
     year : 1986,
     currentYear : 2020
-    age : function subtract(currentYear, year)
-    {
-        return currentYear - age;
-    }
+    
 
 // output
 document.writeln("Kinds of transportion I use: ", myTransport, "</br>");

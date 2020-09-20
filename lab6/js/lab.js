@@ -7,7 +7,7 @@
 // define variables
 var myTransport = ["car", "bike", "bus", "walking"];
 var myMainRide = {
-    make: "Toyota",
+    make : "Toyota",
     model : "AE86",
     color : "White",
     year : 1986,

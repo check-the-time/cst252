@@ -6,18 +6,16 @@
 
 // define variables
 var myTransport = ["car", "bike", "bus", "walking"];
-
 var myMainRide = {
     make: "Toyota",
     model : "AE86",
     color : "White",
     year : 1986,
-    age : function subtract(2020, year)
+    currentYear : 2020
+    age : function subtract(currentYear, year)
     {
-        return 2020 - age;
+        return currentYear - age;
     }
-    console.log(2020 - year)
-}
 
 // output
 document.writeln("Kinds of transportion I use: ", myTransport, "</br>");

@@ -4,7 +4,7 @@
  * License: Public Domain
  */
 
- */
+
  // Define an array and an object
  var myTransport = ["Car", "Bicycle", "On foot", "Bus"];
 

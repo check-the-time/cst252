@@ -5,8 +5,8 @@
  */
 
 // define variables
-var myTransport = ["car", "bike", "bus", "walking"];
-var myMainRide = {
+myTransport = ["car", "bike", "bus", "walking"];
+myMainRide = {
     make : "Toyota",
     model : "AE86",
     color : "White",
@@ -14,7 +14,10 @@ var myMainRide = {
     currentYear : 2020
 
 
-// output
-document.writeln("Kinds of transportion I use: ", myTransport, "</br>");
-document.writeln("My Main Ride: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+    // output
+    document.writeln("Make: " + make + "<br>");
+    document.writeln("Model: " + model + "<br>");
+    document.writeln("Color: " + color + "<br>");
+    document.writeln("Year: " + year + "<br>");
+    document.writeln("Age: " + age + " years <br>");
+    document.writeln("It is " + ownIt + " that I own it<br>");

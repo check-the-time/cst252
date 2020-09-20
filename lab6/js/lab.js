@@ -12,7 +12,7 @@ var myMainRide = {
     color : "White",
     year : 1986,
     currentYear : 2020
-    
+
 
 // output
 document.writeln("Kinds of transportion I use: ", myTransport, "</br>");

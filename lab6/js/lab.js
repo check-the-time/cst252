@@ -4,17 +4,21 @@
  * License: Public Domain
  */
 
-// define variables
-myTransport = ["car", "bike", "bus", "walking"];
-myMainRide = {
-    make : "Toyota",
-    model : "AE86",
-    color : "White",
-    year : 1986,
-    currentYear : 2020
+ */
+ // Define an array and an object
+ var myTransport = ["Car", "Bicycle", "On foot", "Bus"];
 
+ var myMainRide = {
+   make: "Toyota",
+   model: "AE86",
+   year: 1986,
+   color: "White",
+   age: function() {
+     return 2020 - year
+   }
+ };
 
-    // Output
-    document.writeln("This is how I get around: " + myTransport + "<br>");
-    document.writeln("My main ride is a car: <pre>",
-        JSON.stringify(myMainRide, null, '\t'), "</pre>");
+ // Output
+ document.writeln("This is how I get around: " + myTransport + "<br>");
+ document.writeln("My main ride is a car: <pre>",
+     JSON.stringify(myMainRide, null, '\t'), "</pre>");

@@ -14,10 +14,7 @@ myMainRide = {
     currentYear : 2020
 
 
-    // output
-    document.writeln("Make: " + make + "<br>");
-    document.writeln("Model: " + model + "<br>");
-    document.writeln("Color: " + color + "<br>");
-    document.writeln("Year: " + year + "<br>");
-    document.writeln("Age: " + age + " years <br>");
-    document.writeln("It is " + ownIt + " that I own it<br>");
+    // Output
+    document.writeln("This is how I get around: " + myTransport + "<br>");
+    document.writeln("My main ride is a car: <pre>",
+        JSON.stringify(myMainRide, null, '\t'), "</pre>");

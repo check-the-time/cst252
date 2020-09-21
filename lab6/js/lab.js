@@ -6,7 +6,7 @@
 
 
  // Define an array and an object
- var myTransport = ["Car", "Bicycle", "On foot", "Bus"];
+ var myTransport = ["Car", "Walking", "Bike", "Bus"];
 
  var myMainRide = {
    make: "Toyota",

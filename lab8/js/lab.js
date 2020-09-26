@@ -1,23 +1,52 @@
 /*
- * Author: Sebastian Tamiano & Marta Gubanova
- * Created: 22 September
- * License: Public Domain
- */
+  * Authors: Marta Gubanova & Sebastian Tamiano
+  * Created: 24 September 2020
+  * License: Public Domain
+*/
 
- // Function: accepts a string and sorts it in alphabetical order
- // Param: string
- // Returns: sorted, reverse array
- function sortUserName(userName) {
- return userName.toLowerCase().split("").sort().join("");
- }
- // Function: prompts user input
- function main() {
- var userName = window.prompt("ALPHABETIZ-O-RAY! Enter any word to alphabetize it and see the result at the bottom!");
+// Output function
+window.onload = function() {
+  outputElement = document.getElementById("output");
 
- // Output
- document.writeln("<style>:root {--textlen: " + userName.length + ";}</style>");
- var sortedName = sortUserName(userName);
- document.writeln("ZAP! Here's your alphabetized word: " + "</br>" + sortedName);
- }
- // Input
- main();
+// Functions: take a parameter "test"
+// Returns:
+function firstThing(test) {
+  console.log(test + ": this is the first thing.<br>")
+  outputElement.innerHTML += test + ": this is the first thing.<br>";
+}
+function secondThing(test) {
+    console.log(test + ": this is the second thing.<br>")
+    outputElement.innerHTML += test + ": this is the second thing.<br>";
+}
+function thirdThing(test) {
+    console.log(test + ": this is the third thing.<br>")
+    outputElement.innerHTML += test + ": this is the second thing.<br>";
+}
+
+// first test - this test calls on all three functions in order by using the argument "TEST 1"
+firstThing("TEST 1");
+secondThing("TEST 1");
+thirdThing("TEST 1");
+
+// second test - in order
+setTimeout(function() {
+  firstThing("TEST 2");
+}, 0);
+setTimeout(function() {
+  secondThing("TEST 2")
+}, 0);
+setTimeout(function() {
+  thirdThing("TEST 2")
+}, 0);
+
+// third test - 2,3,1 with a 2 seconds delay
+setTimeout(function() {
+  firstThing("TEST 3");
+}, 5000);
+setTimeout(function() {
+  secondThing("TEST 3");
+}, 1000);
+setTimeout(function() {
+  thirdThing("TEST 3");
+}, 3000);
+}

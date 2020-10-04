@@ -1,6 +1,6 @@
 /*
  * Author: Sebastian Tamiano & Marta Gubanova
- * Created: 22 September
+ * Created: 01 October
  * License: Public Domain
  */
 

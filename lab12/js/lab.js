@@ -23,24 +23,24 @@ function fizzBuzzBoom() {
       newEl2.innerHTML = "Fizz";
       output.appendChild(newEl2);
       }
-    else if (counter % 5 == 0) {
-      console.log("Buzz");
-      var newEl3 = document.createElement("p");
-      newEl3.innerHTML = "Buzz";
-      output.appendChild(newEl3);
-      }
-    else if (counter % 7 == 0) {
-      console.log("Boom");
-      var newEl4 = document.createElement("p");
-      newEl4.innerHTML = "Boom";
-      output.appendChild(newEl4);
-      }
-    else {
-      console.log("Number " + counter);
-      var newEl5 = document.createElement("p");
-      newEl5.innerHTML = "Number " + counter;
-      output.appendChild(newEl5);
-      }
+      else if (counter % 5 == 0) {
+        console.log("Buzz");
+        var newEl3 = document.createElement("p");
+        newEl3.innerHTML = "Buzz";
+        output.appendChild(newEl3);
+        }
+      else if (counter % 7 == 0) {
+        console.log("Boom");
+        var newEl4 = document.createElement("p");
+        newEl4.innerHTML = "Boom";
+        output.appendChild(newEl4);
+        }
+      else {
+        console.log("Number " + counter);
+        var newEl5 = document.createElement("p");
+        newEl5.innerHTML = "Number " + counter;
+        output.appendChild(newEl5);
+        }
   }
 }
 fizzBuzzBoom()

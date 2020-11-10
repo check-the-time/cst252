@@ -26,7 +26,7 @@ $("#my-button").click(function(){
 		$("#output").html(`<img src='${url}'>`);
     $("#output").append("<p>" + joke);
   })
-  // If the request fails - src: Wes's jsfiddle
+  // If the request fails - Xsrc: Wes's jsfiddle
   .fail(function( xhr, status, errorThrown ) {
       console.log(errorThrown + " Status:" + status );
 	})
